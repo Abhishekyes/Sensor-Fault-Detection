@@ -1,5 +1,5 @@
 import pymongo
-from sensor.constant.database import DATABASE_NAME
+from sensor.constant.database import DATABASE_NAME,USER_NAME,PASSWORD
 # from sensor.constant.env_variable import MONGODB_URL_KEY
 import certifi
 import os
@@ -11,8 +11,9 @@ class MongoDBClient:
         try:
 
             if MongoDBClient.client is None:
-                mongo_db_url = "mongodb+srv://8800158726:8800158726@cluster0.vu9yhe5.mongodb.net/"
                 # mongo_db_url = os.getenv(MONGODB_URL_KEY)
+                mongo_db_url = "mongodb+srv://880015:880015@cluster0.vu9yhe5.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
+                
                 # print(mongo_db_url)
                 # if "localhost" in mongo_db_url:
                 #     MongoDBClient.client = pymongo.MongoClient(mongo_db_url) 

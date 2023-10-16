@@ -1,1 +1,5 @@
-DATABASE_NAME="ineuron"
+DATABASE_NAME="sensor"
+COLLECTION_NAME = "sensor_data"
+CSV_DATA_PATH= r"C:\VE\Scratch Pad\AI_PRACTICE\Projects\Sensor-Fault-detection\Sensor-Fault-Detection\data\sensor_data.csv"
+USER_NAME="880015"
+PASSWORD="880015"
