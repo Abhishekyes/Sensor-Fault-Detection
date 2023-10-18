@@ -18,7 +18,7 @@ class DataValidation:
             
 
         except Exception as e:
-            raise e
+            raise SensorException(e,sys)
 
     def validate_number_of_columns(self)->bool:
         try:

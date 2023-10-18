@@ -1,0 +1,353 @@
+columns:
+- 'class: category'
+- 'class: object'
+- 'aa_000: int64'
+- 'ab_000: object'
+- 'ac_000: object'
+- 'ad_000: object'
+- 'ae_000: object'
+- 'af_000: object'
+- 'ag_000: object'
+- 'ag_001: object'
+- 'ag_002: object'
+- 'ag_003: object'
+- 'ag_004: object'
+- 'ag_005: object'
+- 'ag_006: object'
+- 'ag_007: object'
+- 'ag_008: object'
+- 'ag_009: object'
+- 'ah_000: object'
+- 'ai_000: object'
+- 'aj_000: object'
+- 'ak_000: object'
+- 'al_000: object'
+- 'am_0: object'
+- 'an_000: object'
+- 'ao_000: object'
+- 'ap_000: object'
+- 'aq_000: object'
+- 'ar_000: object'
+- 'as_000: object'
+- 'at_000: object'
+- 'au_000: object'
+- 'av_000: object'
+- 'ax_000: object'
+- 'ay_000: object'
+- 'ay_001: object'
+- 'ay_002: object'
+- 'ay_003: object'
+- 'ay_004: object'
+- 'ay_005: object'
+- 'ay_006: object'
+- 'ay_007: object'
+- 'ay_008: object'
+- 'ay_009: object'
+- 'az_000: object'
+- 'az_001: object'
+- 'az_002: object'
+- 'az_003: object'
+- 'az_004: object'
+- 'az_005: object'
+- 'az_006: object'
+- 'az_007: object'
+- 'az_008: object'
+- 'az_009: object'
+- 'ba_000: object'
+- 'ba_001: object'
+- 'ba_002: object'
+- 'ba_003: object'
+- 'ba_004: object'
+- 'ba_005: object'
+- 'ba_006: object'
+- 'ba_007: object'
+- 'ba_008: object'
+- 'ba_009: object'
+- 'bb_000: object'
+- 'bc_000: object'
+- 'bd_000: object'
+- 'be_000: object'
+- 'bf_000: object'
+- 'bg_000: object'
+- 'bh_000: object'
+- 'bi_000: object'
+- 'bj_000: object'
+- 'bk_000: object'
+- 'bl_000: object'
+- 'bm_000: object'
+- 'bn_000: object'
+- 'bo_000: object'
+- 'bp_000: object'
+- 'bq_000: object'
+- 'br_000: object'
+- 'bs_000: object'
+- 'bt_000: object'
+- 'bu_000: object'
+- 'bv_000: object'
+- 'bx_000: object'
+- 'by_000: object'
+- 'bz_000: object'
+- 'ca_000: object'
+- 'cb_000: object'
+- 'cc_000: object'
+- 'cd_000: object'
+- 'ce_000: object'
+- 'cf_000: object'
+- 'cg_000: object'
+- 'ch_000: object'
+- 'ci_000: object'
+- 'cj_000: object'
+- 'ck_000: object'
+- 'cl_000: object'
+- 'cm_000: object'
+- 'cn_000: object'
+- 'cn_001: object'
+- 'cn_002: object'
+- 'cn_003: object'
+- 'cn_004: object'
+- 'cn_005: object'
+- 'cn_006: object'
+- 'cn_007: object'
+- 'cn_008: object'
+- 'cn_009: object'
+- 'co_000: object'
+- 'cp_000: object'
+- 'cq_000: object'
+- 'cr_000: object'
+- 'cs_000: object'
+- 'cs_001: object'
+- 'cs_002: object'
+- 'cs_003: object'
+- 'cs_004: object'
+- 'cs_005: object'
+- 'cs_006: object'
+- 'cs_007: object'
+- 'cs_008: object'
+- 'cs_009: object'
+- 'ct_000: object'
+- 'cu_000: object'
+- 'cv_000: object'
+- 'cx_000: object'
+- 'cy_000: object'
+- 'cz_000: object'
+- 'da_000: object'
+- 'db_000: object'
+- 'dc_000: object'
+- 'dd_000: object'
+- 'de_000: object'
+- 'df_000: object'
+- 'dg_000: object'
+- 'dh_000: object'
+- 'di_000: object'
+- 'dj_000: object'
+- 'dk_000: object'
+- 'dl_000: object'
+- 'dm_000: object'
+- 'dn_000: object'
+- 'do_000: object'
+- 'dp_000: object'
+- 'dq_000: object'
+- 'dr_000: object'
+- 'ds_000: object'
+- 'dt_000: object'
+- 'du_000: object'
+- 'dv_000: object'
+- 'dx_000: object'
+- 'dy_000: object'
+- 'dz_000: object'
+- 'ea_000: object'
+- 'eb_000: object'
+- 'ec_00: object'
+- 'ed_000: object'
+- 'ee_000: object'
+- 'ee_001: object'
+- 'ee_002: object'
+- 'ee_003: object'
+- 'ee_004: object'
+- 'ee_005: object'
+- 'ee_006: object'
+- 'ee_007: object'
+- 'ee_008: object'
+- 'ee_009: object'
+- 'ef_000: object'
+- 'eg_000: object'
+drop_columns:
+- br_000
+- bq_000
+- bp_000
+- ab_000
+- cr_000
+- bo_000
+- bn_000
+numerical_columns:
+- class
+- aa_000
+- ab_000
+- ac_000
+- ad_000
+- ae_000
+- af_000
+- ag_000
+- ag_001
+- ag_002
+- ag_003
+- ag_004
+- ag_005
+- ag_006
+- ag_007
+- ag_008
+- ag_009
+- ah_000
+- ai_000
+- aj_000
+- ak_000
+- al_000
+- am_0
+- an_000
+- ao_000
+- ap_000
+- aq_000
+- ar_000
+- as_000
+- at_000
+- au_000
+- av_000
+- ax_000
+- ay_000
+- ay_001
+- ay_002
+- ay_003
+- ay_004
+- ay_005
+- ay_006
+- ay_007
+- ay_008
+- ay_009
+- az_000
+- az_001
+- az_002
+- az_003
+- az_004
+- az_005
+- az_006
+- az_007
+- az_008
+- az_009
+- ba_000
+- ba_001
+- ba_002
+- ba_003
+- ba_004
+- ba_005
+- ba_006
+- ba_007
+- ba_008
+- ba_009
+- bb_000
+- bc_000
+- bd_000
+- be_000
+- bf_000
+- bg_000
+- bh_000
+- bi_000
+- bj_000
+- bk_000
+- bl_000
+- bm_000
+- bn_000
+- bo_000
+- bp_000
+- bq_000
+- br_000
+- bs_000
+- bt_000
+- bu_000
+- bv_000
+- bx_000
+- by_000
+- bz_000
+- ca_000
+- cb_000
+- cc_000
+- cd_000
+- ce_000
+- cf_000
+- cg_000
+- ch_000
+- ci_000
+- cj_000
+- ck_000
+- cl_000
+- cm_000
+- cn_000
+- cn_001
+- cn_002
+- cn_003
+- cn_004
+- cn_005
+- cn_006
+- cn_007
+- cn_008
+- cn_009
+- co_000
+- cp_000
+- cq_000
+- cr_000
+- cs_000
+- cs_001
+- cs_002
+- cs_003
+- cs_004
+- cs_005
+- cs_006
+- cs_007
+- cs_008
+- cs_009
+- ct_000
+- cu_000
+- cv_000
+- cx_000
+- cy_000
+- cz_000
+- da_000
+- db_000
+- dc_000
+- dd_000
+- de_000
+- df_000
+- dg_000
+- dh_000
+- di_000
+- dj_000
+- dk_000
+- dl_000
+- dm_000
+- dn_000
+- do_000
+- dp_000
+- dq_000
+- dr_000
+- ds_000
+- dt_000
+- du_000
+- dv_000
+- dx_000
+- dy_000
+- dz_000
+- ea_000
+- eb_000
+- ec_00
+- ed_000
+- ee_000
+- ee_001
+- ee_002
+- ee_003
+- ee_004
+- ee_005
+- ee_006
+- ee_007
+- ee_008
+- ee_009
+- ef_000
+- eg_000
